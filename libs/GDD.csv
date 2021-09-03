@@ -1,0 +1,10 @@
+Table Name,Storage
+olist_order_items_dataset,Remote
+olist_order_payments_dataset,Remote
+olist_order_reviews_dataset,Remote
+olist_orders_dataset,Remote
+olist_products_dataset,Remote
+olist_sellers_dataset,Remote
+product_category_name_translation,Remote
+olist_customers_dataset,Local
+olist_geolocation_dataset,Local

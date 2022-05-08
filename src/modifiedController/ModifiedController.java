@@ -17,7 +17,7 @@ public class ModifiedController {
 		// TODO Auto-generated method stub
 		System.out.println("hello");
 		try {
-			Connection con1 = DriverManager.getConnection("jdbc:mysql://localhost:3306/data5408", "root", "2100");
+			Connection con1 = DriverManager.getConnection("jdbc:mysql://localhost:3306/data5408", "username", "password");
 			System.out.println("Connected Local Database");
 			/*
 			 * Con1 suggest connection with Local Database.
@@ -25,7 +25,7 @@ public class ModifiedController {
 			 * */			
 			String url = "jdbc:mysql://34.122.78.27:3306/Data5408?cloudSqlInstance=csci-5408-w21-305213:us-central1:data-mwa-db";
 		    Class.forName("com.mysql.cj.jdbc.Driver");
-		    Connection con2 = DriverManager.getConnection(url, "root", "2100");
+		    Connection con2 = DriverManager.getConnection(url, "username", "password");
 		    System.out.println("Connected Remote Database");
 		    String[] S = new String[5];
 		    
